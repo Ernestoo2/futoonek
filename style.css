@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+main{
+    width: 25%;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 25px 0px;
+}
+.input-text{
+    padding: 10px;
+    margin: 5px 0px 0px 15px;
+    width: 85%;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 5px;
+}
+.instruction{
+    width: 90%;
+    background-color: rgb(191, 191, 255);
+    margin-left: 15px;
+    border-radius: 5px;
+}
+a{
+    color: rgb(78, 74, 74);
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-left: 15px;
+}
+p{
+    margin-left: 15px;
+    color: rgb(78, 74, 74);
+}
+ul li{
+    color: rgb(78, 74, 74);
+}
+button{
+    width: 90%;
+    padding: 5px;
+    margin: 0px 0px 15px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+/*@media screen {
+    main{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        justify-content: center;
+        background-color: white;  
+    }
+    .input-text{
+        padding: 15px;
+        margin: 5px 0px 0px 10px;
+        width: 85%;
+        border: 1px solid rgb(180, 176, 176);
+        border-radius: 5px;   
+}
+.instruction{
+    width: 85%;
+    background-color: rgb(191, 191, 255);
+    margin: 10px 0px 0px 10px;
+    border-radius: 5px;
+    padding:20px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin-left: 10px;
+}
+button{
+    width: 95%;
+    padding: 20px;
+    margin: 0px 0px 15px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+}
